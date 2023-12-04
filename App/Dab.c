@@ -57,7 +57,7 @@ void DabLoop(void)
 	d_VBat=LeerVBat(g_LeerModo);
 	d_VBus=LeerVBus(g_LeerModo);
 
-	if(d_VBus > VBUSi) {
+if(d_VBus > VBUSi) {
   if(d_VBat == VBATmax) {
     d_ActL=0;
     d_ActH=0;
