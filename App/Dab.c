@@ -20,12 +20,9 @@
 #include "XPT2046_touch.h"
 #include "Aplicacion.h"
 #include "OSC.h"
+#include "Dab.h"
 
-#define VBUSmax   450.0//WCH MARELLI MAHLE
-#define VBUSmin   350.0//WCH MARELLI MAHLE
-#define VBUSi     400.0//WCH MARELLI MAHLE
-#define VBATmax   50.0//WCH MARELLI MAHLE
-#define VBATmin  30.0//WCH MARELLI MAHLE
+
 
 
 
